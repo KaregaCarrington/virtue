@@ -17,8 +17,11 @@
 @import 'bootstrap';
 
 html, body {
-  font-family: 'orbitron', sans-serif;
   height: 100%;
+}
+
+.nav {
+  font-family: 'orbitron', sans-serif;
 }
 
 .alert {
@@ -45,6 +48,7 @@ html, body {
   color: #00cec1;
   margin-top: 5em;
   letter-spacing: 5px;
+  font-family: 'orbitron', sans-serif;
 }
 
 iframe {
