@@ -16,6 +16,52 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+html, body {
+  font-family: 'orbitron', sans-serif;
+  height: 100%;
+}
+
 .alert {
   background-color: yellow;
+}
+#main {
+  height: 100%
+}
+
+.concert {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#landing-text {
+  color: #00cec1;
+  margin-top: 5em;
+  letter-spacing: 5px;
+}
+
+iframe {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+}
+
+#music-video-page {
+  background: black;
+  min-height: 100%;
+  #list {
+    margin: 4em 5em;
+    color: #00cec1;
+  }
 }

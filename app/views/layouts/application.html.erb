@@ -5,6 +5,7 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', "https://fonts.googleapis.com/css?family=Orbitron:500" %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
@@ -15,8 +16,8 @@
     <% flash.each do |name,msg| %>
       <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
     <% end %>
-
-    <%= yield %>
-
+    <div id="main">
+      <%= yield %>
+    </div>
   </body>
 </html>
