@@ -11,4 +11,6 @@ class MusicVideosController < ApplicationController
   def relentless
   end
 
+  def childrens_story
+  end
 end
