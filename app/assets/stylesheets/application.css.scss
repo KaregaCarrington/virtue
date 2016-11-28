@@ -46,8 +46,12 @@ html, body {
 
 #landing-text {
   color: #00cec1;
+<<<<<<< HEAD
   margin-top: 0;
   margin-bottom: 0;
+=======
+  padding-top: 5em;
+>>>>>>> concerts
   letter-spacing: 5px;
   font-family: 'orbitron', sans-serif;
 }
@@ -64,7 +68,16 @@ height: auto;
 
 #music-video-page {
   background: black;
+  padding-top: 5em;
   min-height: 100%;
+  color: white;
+}
+
+#concerts-page {
+  background: black;
+  padding-top: 5em;
+  min-height: 100%;
+<<<<<<< HEAD
   #list {
     margin: 4em 5em;
     color: white;
@@ -75,4 +88,45 @@ height: auto;
   background: black;
   height: 100%;
   color: white;
+=======
+}
+
+.col-md-3 {
+  display: inline;
+  float: left;
+  overflow-x: auto;
+}
+
+.row {
+  padding: 0 15px;
+}
+
+.panel-heading {
+  background: linear-gradient(to bottom right, #00cec1, white);
+}
+
+#artist-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.purchase-btn {
+  background-color: #00cec1;
+}
+
+.close-btn {
+  background-color: black;
+  color: #00cec1;
+}
+
+#venue-picture {
+  display: block;
+    width: 100%;
+}
+
+#artist-name {
+  letter-spacing: 2px;
+  font-size: 20px;
+>>>>>>> concerts
 }

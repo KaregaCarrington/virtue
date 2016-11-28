@@ -7,9 +7,13 @@
       <% if user_signed_in? %>
 
         <ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
           <li><%= link_to "#{current_user.email}" %></li>
+=======
+          <li><%= link_to "#{current_user.email}", '#' %></li>
+>>>>>>> concerts
           <li><%= link_to 'Music Videos', music_videos_index_path %><li>
-          <li><%= link_to 'Concerts', root_path %></li>
+          <li><%= link_to 'Concerts', concerts_index_path %></li>
           <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
         </ul>
       <% else %> 
