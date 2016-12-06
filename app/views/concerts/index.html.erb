@@ -1,127 +1,129 @@
 <div id="concerts-page">
-  <div class="row">
-    <div class="col-md-3">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title text-center">Hip Hop</h3>
-        </div>
-        <div class="panel-body">
-          <button type="button" class="btn btn-inverse btn-sm" id="artist-button" data-toggle="modal" data-target="#myModal">
-            <span id="artist-name">Lavoisier</span>
-          </button>
-          <!-- Modal -->
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Lavoisier's Upcoming VR Concerts</h4>
-                </div>
-                <div class="modal-body">
-                  <div id="venue-picture">
-                    <%= image_tag 'msg' %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Hip Hop</h3>
+          </div>
+          <div class="panel-body">
+            <button type="button" class="btn btn-inverse btn-sm" id="artist-button" data-toggle="modal" data-target="#myModal">
+              <span id="artist-name">Lavoisier</span>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Lavoisier's Upcoming VR Concerts</h4>
                   </div>
-                  <pre>
-                    Date: Dec 25, 2016
-                    Venue: Madison Square Garden
-                    Location: New York City, NY
-                  </pre>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn purchase-btn">Buy Tickets</button>
-                </div>
-                <div class="modal-body">
-                  <div id="venue-picture">
-                    <%= image_tag 'o2' %>
+                  <div class="modal-body">
+                    <div id="venue-picture">
+                      <%= image_tag 'msg' %>
+                    </div>
+                    <p>
+                      Date: Dec 25, 2016<br>
+                      Venue: Madison Square Garden<br>
+                      Location: New York City, NY
+                    </p>
                   </div>
-                  <pre>
-                    Date: Aug 3, 2017
-                    Venue: O2 Arena
-                    Location: London, UK
-                  </pre>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn purchase-btn">Buy Tickets</button>
+                  <div class="modal-footer">
+                    <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn purchase-btn">Buy Tickets</button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="venue-picture">
+                      <%= image_tag 'o2' %>
+                    </div>
+                    <p>
+                      Date: Aug 3, 2017<br>
+                      Venue: O2 Arena<br>
+                      Location: London, UK
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn purchase-btn">Buy Tickets</button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <button type="button" class="btn btn-inverse btn-sm" id="artist-button" data-toggle="modal" data-target="#myModal">
-            <span id="artist-name">Rigz</span>
-          </button>
-          <!-- Modal -->
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Rigz's Upcoming VR Concerts</h4>
-                </div>
-                <div class="modal-body">
-                  <div id="venue-picture">
-                    <%= image_tag 'msg' %>
+            <button type="button" class="btn btn-inverse btn-sm" id="artist-button" data-toggle="modal" data-target="#myModal">
+              <span id="artist-name">Rigz</span>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Rigz's Upcoming VR Concerts</h4>
                   </div>
-                  <pre>
-                    Date: Dec 25, 2016
-                    Venue: Madison Square Garden
-                    Location: New York City, NY
-                  </pre>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn purchase-btn">Buy Tickets</button>
-                </div>
-                <div class="modal-body">
-                  <div id="venue-picture">
-                    <%= image_tag 'o2' %>
+                  <div class="modal-body">
+                    <div id="venue-picture">
+                      <%= image_tag 'msg' %>
+                    </div>
+                    <pre>
+                      Date: Dec 25, 2016
+                      Venue: Madison Square Garden
+                      Location: New York City, NY
+                    </pre>
                   </div>
-                  <pre>
-                    Date: Aug 3, 2017
-                    Venue: O2 Arena
-                    Location: London, UK
-                  </pre>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn purchase-btn">Buy Tickets</button>
+                  <div class="modal-footer">
+                    <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn purchase-btn">Buy Tickets</button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="venue-picture">
+                      <%= image_tag 'o2' %>
+                    </div>
+                    <pre>
+                      Date: Aug 3, 2017
+                      Venue: O2 Arena
+                      Location: London, UK
+                    </pre>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn purchase-btn">Buy Tickets</button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-3">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title text-center">Contemporary</h3>
-        </div>
-        <div class="panel-body">
-          Blah Blah
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title text-center">Reggae</h3>
-        </div>
-        <div class="panel-body">
-          Blah Blah
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Contemporary</h3>
+          </div>
+          <div class="panel-body">
+            Blah Blah
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-3">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title text-center">R&B</h3>
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Reggae</h3>
+          </div>
+          <div class="panel-body">
+            Blah Blah
+          </div>
         </div>
-        <div class="panel-body">
-          Blah Blah
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">R&B</h3>
+          </div>
+          <div class="panel-body">
+            Blah Blah
+          </div>
         </div>
       </div>
     </div>
