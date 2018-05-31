@@ -1,0 +1,7 @@
+<%= simple_form_for @concert do |f| %>
+  <%= f.file_field :concert_img %>
+  <%= f.input :title, placeholder: 'title' %>
+  <%= f.input :location, placeholder: 'location' %>
+  <%= f.input :date, placeholder: 'date' %>
+  <%= f.button :submit %>
+<% end %>

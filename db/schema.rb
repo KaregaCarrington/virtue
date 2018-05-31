@@ -10,7 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161120110154) do
+ActiveRecord::Schema.define(version: 20180531034459) do
+
+  create_table "concerts", force: :cascade do |t|
+    t.string   "title"
+    t.string   "location"
+    t.datetime "date"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.string   "concert_img_file_name"
+    t.string   "concert_img_content_type"
+    t.integer  "concert_img_file_size"
+    t.datetime "concert_img_updated_at"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
